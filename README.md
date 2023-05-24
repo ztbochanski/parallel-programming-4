@@ -30,7 +30,7 @@ return sum;
 2. Show the 2 tables of performances for each array size and the corresponding speedups
 	- ![[Screenshot 2023-05-11 at 19.17.51.png]]
 3. Show the graphs (or graph) of SIMD/non-SIMD speedup versus array size (either one graph with two curves, or two graphs each with one curve)
-	- ![[Picture1 1.svg]]
+	- ![Picture1 1.svg](https://github.com/ztbochanski/parallel-programming-SIMD/blob/008241cb862bcee0f42e43e7e4c650346affc0e8/Picture1%201.svg)
 4. What patterns are you seeing in the speedups?
 	- Based on the hardware and compiler used, there were a few observed patterns. 
 		1. As array size increases there is an increase in speedup (however this is only initially)
