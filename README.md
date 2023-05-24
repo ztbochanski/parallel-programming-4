@@ -44,4 +44,4 @@ return sum;
 	2. For patterns from points 2 & 3 above, beyond the size of the data speedup gains diminish and the curve starts to plateau. This could indicate the overhead of transforming the scalar operations (one data point) to a vector operation or vectorization meaning the SIMD instructions that operate on multiple elements at once.
 	3. Finally significant decreases in speedup gains could include the overhead discussed above as well as memory limitations. Data could potentially be waiting to be fetched from memory resulting in worse speedup.
 	4. Below is a zoomed-in portion of the graph eliminating the 8M array size to better show the speedup increase and plateau before it starts to get worse:
-	   - ![[Picture2.svg]]
+	   - ![Picture2.svg](https://github.com/ztbochanski/parallel-programming-SIMD/blob/2cfdcb62800c019b1f5c181bfd07fd2e5f165660/Picture2.svg)
