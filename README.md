@@ -28,7 +28,7 @@ return sum;
 
 1. Machine used: `Oregon State Flip: Linux`
 2. Show the 2 tables of performances for each array size and the corresponding speedups
-	- ![[Screenshot 2023-05-11 at 19.17.51.png]]
+	- ![Screenshot 2023-05-11 at 19.17.51.png](https://github.com/ztbochanski/parallel-programming-SIMD/blob/f390b11fa12254b9cb4d4a1c609e55ddd6706799/Screenshot%202023-05-11%20at%2019.17.51.png)
 3. Show the graphs (or graph) of SIMD/non-SIMD speedup versus array size (either one graph with two curves, or two graphs each with one curve)
 	- ![Picture1 1.svg](https://github.com/ztbochanski/parallel-programming-SIMD/blob/008241cb862bcee0f42e43e7e4c650346affc0e8/Picture1%201.svg)
 4. What patterns are you seeing in the speedups?
